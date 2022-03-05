@@ -32,9 +32,9 @@ public class DockerCapstone {
 		//drivers.get("https://www.aetna.com/");
 		drivers.get("https://www.google.com/");
 		drivers.findElement(By.name("q")).sendKeys("Aetna");
-		System.out.println("Title is "+drivers.getTitle());
 		
 		Thread.sleep(5000);
+		System.out.println("Title is:"+drivers.getTitle());
 		drivers.quit();
 		
 
